@@ -1,7 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sarala:wght@400;700&display=swap');
 
-/* Set custom variables here */
+/* Set custom variables here - only doing custom variables and buttons (maybe some max widths) in css - everything else is in html*/
+:root {
 
+  --primary: #2e483a;
+  --light: #f6f3ed;
+
+  --bs-primary: #0d6efd;
+
+}
+
+#customers  {
+  background-color: var(--primary);
+  color: var(--light);
+}
+
+ header, footer {
+  background-color: var(--primary);
+  color: var(--light);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--light);
+  border-color: var(--primary);
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: var(--light);
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+hr {
+  color: var(--primary);
+}
 
 
 
